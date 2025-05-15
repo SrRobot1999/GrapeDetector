@@ -1,0 +1,17 @@
+train: D:/YOLOv5/data/images/train # train images (relative to 'path') 128 images
+val: D:/YOLOv5/data/images/val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+nc: 7 #number of classes
+names:
+  0: mediano
+  1: grande
+  2: pequeño
+  3: defecto
+  4: sin_defecto
+  5: verde
+  6: maduro
+ 
+# Download script/URL (optional)
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128.zip

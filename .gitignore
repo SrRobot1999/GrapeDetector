@@ -1,0 +1,39 @@
+# === Entorno virtual ===
+env/
+venv/
+ENV/
+.venv/
+
+# === PyInstaller ===
+dist/
+build/
+*.spec
+
+# === Archivos binarios grandes ===
+*.exe
+*.dll
+*.lib
+*.pyd
+*.so
+
+# === Archivos de Python compilados ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Archivos de logs y temporales ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Archivos de configuración de IDE ===
+.vscode/
+.idea/
+
+# === Archivos del sistema ===
+*.bak
+*.old
+*.orig
+ 
